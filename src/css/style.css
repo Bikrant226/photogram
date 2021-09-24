@@ -1,0 +1,47 @@
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    gap: 20px;
+    position: absolute;
+    top:20%;
+    background-color: white;
+    left: 30%;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 10px  rgb(25,96,228,0.2);
+}
+
+.user-container input,.user-container button{
+    border-style: none;
+    background-color: white;
+    border: 1px solid rgb(25, 96, 228);
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px;
+}
+
+.user-container button{
+    width: fit-content;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    left: 43%;
+    color: aliceblue;
+    background-color: rgb(25,96,228);
+
+}
+.user-container .Link{
+    background-color: white;
+    font-size: small;
+    color: rgb(165, 157,157);
+    text-decoration: none;
+}
+
+.user-container label{
+    font-size: small;
+    color:red;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

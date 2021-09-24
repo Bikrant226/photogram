@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#browse,.profile,input[type="search"],.name,#post{
+    color: rgb(165, 157, 157);  
+    border-style:none ;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input[type="search"]{
+    text-align: center;
+}
+
+#browse:hover,input[type="search"]:hover,.profile:hover,#post:hover{
+    color: rgb(25, 96, 228);
+    border: 1px solid rgb(25, 96, 228);   
+    border-radius: 25px;
+   
+}
+
+
+
+

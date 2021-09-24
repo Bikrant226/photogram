@@ -1,0 +1,30 @@
+.profile_component{
+    background-color: white;
+    position: absolute;
+    top: 49px;
+    /* left: 93%; */
+    right: 0;
+    z-index: 1;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+}
+
+.signin,.signup{
+    border-style: none;
+    color: rgb(165, 157, 157); 
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signin:hover,.signup:hover{
+   color: rgb(145, 135, 135);
+}

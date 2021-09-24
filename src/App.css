@@ -1,0 +1,47 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0 auto;
+  background-color: rgb(216, 206, 206);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #EEEEEE;
+}
+  
+.container {
+ 
+  position: relative;
+  top:50px;
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+      
+}
+
+.container img{      
+  border:1px solid rgb(201, 201, 201);
+  border-radius: 25px;
+  height: 250px;
+  width: 250px;
+  transition: height 0.5s,width 0.5s;
+}
+
+.likes{
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.likes button,span{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  font-size: large;
+  color: rgb(165,157,157);
+  background-color: rgb(255, 255, 255);
+}
+
+
